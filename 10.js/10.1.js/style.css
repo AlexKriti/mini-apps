@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.special{
+    color: aliceblue;
+}
+
+.popup-btn{
+    background-color: aquamarine;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.open-up{
+    opacity: 1;
+    visibility: visible;
+}
+
+div.fixed{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+div.fixed section{
+    background-color: white;
+    align-content: center ;
+    align-items: center;
+    margin: 300px auto;
+    position: relative;
+    max-width: 600px;
+}
+
+div.fixed section button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.new{
+    opacity: 1;
+    visibility: visible;
+}
