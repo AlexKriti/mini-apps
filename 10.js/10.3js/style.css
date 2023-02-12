@@ -6,6 +6,10 @@ button.inside::after{
     content: url('images/close.png');
 }
 
+button.special{
+    position: relative;
+}
+
 button{
     position: absolute;
     top: 0%;
@@ -40,4 +44,18 @@ div.nav{
 
 .none{
     display: none;
+}
+
+form{
+    display: flex;
+    margin-top: 60px;
+    max-height: 50px;
+}
+
+input{
+    background-color:rgb(218, 218, 218) ;
+}
+
+.white{
+    background-color:white
 }

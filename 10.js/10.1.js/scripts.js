@@ -7,3 +7,9 @@ let button2 = document.querySelector('button.cross');
 button2.addEventListener('click', (event) => {
     div.classList.remove("new")
 });
+
+window.addEventListener('click', (event)=>{
+    if(event.target === div){
+        div.classList.remove("new")
+    }
+})

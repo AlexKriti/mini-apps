@@ -14,6 +14,7 @@
 
 const button1 = document.querySelector('button.outside');
 const button2 = document.querySelector('button.inside');
+const input = document.querySelector('input')
 console.log(button2)
 const div = document.querySelector('div.nav');
 button1.addEventListener('click', ()=>{
@@ -26,4 +27,10 @@ button2.addEventListener('click', ()=>{
     console.log('bye');
     div.className = 'none';
     button1.classList.remove('none')
+});
+input.addEventListener('focusin', ()=>{
+    input.classList.add('white')
+});
+input.addEventListener('focusout', ()=>{
+    input.classList.remove('white')
 })
